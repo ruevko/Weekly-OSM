@@ -1,0 +1,194 @@
+Country,Contributors_mean,Contributors_max,Created_elements_max,Created_elements_sum,Modified_elements_sum,Deleted_elements_sum
+Germany,577,698,124525,656266,277775,82652
+Russia,192,217,116651,689945,176489,27427
+France,183,210,259423,1223715,399618,64319
+United States,148,165,428489,1424245,220678,185562
+United Kingdom,137,150,42707,267544,75136,17511
+Italy,127,139,69329,323664,73383,30251
+Austria,82,90,30970,152877,48778,21881
+Poland,67,76,36397,139549,58633,7630
+Spain,61,67,35914,163091,37901,8559
+Netherlands,49,63,10463,41921,40125,13623
+Switzerland,48,57,17730,75571,40589,5306
+Japan,40,54,127044,349953,50730,42356
+Sweden,38,47,23698,115313,24615,7961
+Ukraine,38,46,16267,75201,26509,5759
+Canada,36,45,425704,1191446,19937,57450
+Belgium,39,44,14229,82683,16283,3658
+Czech Republic,38,44,36625,168194,21292,9530
+Brazil,29,34,22626,81886,18118,8751
+Denmark,28,33,10760,61007,14061,3940
+Portugal,23,31,14666,65570,11131,12697
+Finland,25,30,19861,93022,19953,3928
+Norway,22,29,15252,66653,13208,2306
+Australia,23,28,9336,45406,18498,16346
+Belarus,18,25,5628,20226,9852,1489
+Greece,20,24,21532,79887,15210,4013
+Indonesia,12,23,7431,31604,5516,8185
+Ireland,14,19,12282,42447,22289,3112
+Hungary,14,18,5344,18117,5742,542
+China,13,17,17041,80586,11343,13640
+Colombia,10,16,12180,43566,6691,10807
+Croatia,13,16,7226,35864,15445,3350
+India,12,16,21842,60564,5527,1310
+Slovakia,9,15,27563,126927,8255,16933
+Argentina,11,14,6753,17251,14322,1158
+Chile,9,13,4434,12686,4567,1085
+Mexico,10,13,10645,40501,3256,5295
+Philippines,9,13,7943,20046,7722,1553
+Romania,9,13,4824,15267,6435,5352
+Latvia,9,12,3465,11676,3517,786
+Turkey,8,12,5141,14117,2281,1461
+Thailand,6,11,6979,20907,2506,409
+Ecuador,4,10,966,2360,287,60
+Kazakhstan,7,10,4300,22716,5484,1431
+New Zealand,8,10,7306,39876,3212,532
+Peru,5,10,8390,31793,13685,35452
+South Africa,6,10,4131,17764,5264,1459
+Vietnam,5,10,6899,11779,4564,674
+Bosnia and Herzegovina,6,9,5891,26843,4242,35720
+Bulgaria,3,8,2694,4654,957,936
+Israel,5,8,1072,3337,2211,904
+Slovenia,6,8,1860,6545,2772,411
+Haiti,3,7,634,2163,1600,1767
+Lithuania,5,7,4341,17461,1860,659
+Luxembourg,5,7,4849,17256,1630,305
+Algeria,2,6,917,2095,1581,199
+Estonia,4,6,2205,6612,1521,235
+Moldova,4,6,4861,11220,1540,242
+Serbia,4,6,1205,3325,1491,145
+Taiwan,4,6,2996,9974,1815,684
+Bangladesh,3,5,15707,28680,1317,3694
+Cyprus,2,5,62,84,21,4
+Iceland,3,5,1728,3530,1534,113
+Malaysia,3,5,3589,8412,1724,775
+South Korea,2,5,2534,3797,1299,247
+Venezuela,3,5,3717,4935,989,775
+West Bank,2,5,1917,6437,776,1991
+Azerbaijan,1,4,1905,5268,1399,311
+Bolivia,2,4,5311,10125,2284,517
+Cambodia,2,4,21287,47608,779,284
+Costa Rica,3,4,1875,3033,874,335
+Egypt,2,4,2131,6581,827,155
+Georgia,2,4,424,1024,1010,127
+Kyrgyzstan,3,4,20852,73926,26712,5281
+Morocco,2,4,3108,7908,1541,869
+Paraguay,3,4,8017,31271,1881,621
+Republic of Kosovo,2,4,946,1919,1132,266
+Saudi Arabia,2,4,656,998,662,164
+Syria,2,4,2057,7107,328,35
+Tunisia,2,4,248,437,198,59
+Uzbekistan,2,4,5856,7458,707,895
+Cuba,2,3,5260,15352,1568,182
+Iran,2,3,6400,6799,184,374
+Macedonia,1,3,562,571,143,31
+Mauritania,1,3,32,34,684,87
+Mongolia,1,3,694,782,66,17
+Nepal,1,3,290,634,524,12
+Singapore,2,3,1418,2778,770,78
+Sudan,1,3,2068,5571,1108,384
+Afghanistan,1,2,1402,3404,300,100
+Albania,1,2,644,757,205,19
+Burkina Faso,1,2,33,69,7,0
+Dominican Republic,1,2,188,276,567,10
+French Guiana,1,2,2356,2454,293,55
+French Polynesia,0,2,0,0,17,0
+Ghana,1,2,1840,6314,406,59
+Guatemala,1,2,526,1524,93,15
+Honduras,0,2,148,165,149,96
+Hong Kong,1,2,645,1529,485,187
+Kuwait,1,2,1959,4612,620,180
+Laos,0,2,786,786,24,3
+Lebanon,1,2,1653,1986,229,389
+Libya,0,2,8,8,57,8
+Liechtenstein,1,2,508,839,635,42
+Madagascar,1,2,10,14,291,63
+Mali,1,2,2749,10912,670,89
+Martinique,1,2,1221,2969,6,0
+Montenegro,1,2,559,911,167,13
+Myanmar (Burma),1,2,581,638,197,27
+Namibia,1,2,1519,2506,77,23
+New Caledonia,1,2,302,414,719,33
+Nigeria,1,2,15,28,43,4
+North Korea,1,2,6360,12434,79,7
+Pakistan,1,2,771,1138,290,140
+Qatar,1,2,156,224,208,31
+Republic of the Congo,0,2,0,0,4,0
+Reunion,1,2,590,1534,971,463
+Senegal,1,2,1271,2964,565,10
+Trinidad and Tobago,1,2,378,579,448,447
+Uganda,1,2,108,144,14,4
+United Arab Emirates,1,2,315,392,675,94
+Uruguay,1,2,4396,9254,2762,4775
+Vanuatu,1,2,1256,1647,1103,77
+Antarctica,0,1,147,274,204,11
+Antigua and Barbuda,0,1,1,1,1,0
+Armenia,0,1,2,2,4,0
+Aruba,1,1,775,1486,9860,4575
+Bahrain,0,1,0,0,12,15
+Barbados,0,1,2,2,3,0
+Bhutan,0,1,0,0,2,1
+Botswana,0,1,0,0,1,0
+Brunei,0,1,57,57,30,0
+Burundi,0,1,699,699,98,84
+Caribbean Netherlands,0,1,1,1,0,0
+Cayman Islands,0,1,15,15,0,0
+Central African Republic,0,1,0,0,2,0
+Chad,0,1,246,246,9,2
+Christmas Island,0,1,0,0,1,0
+Collectivity of Saint Martin,0,1,177,177,48,3
+Congo-Kinshasa,0,1,654,814,2,0
+East Timor,0,1,159,159,14,0
+Ethiopia,0,1,382,592,382,93
+Falkland Islands (Islas Malvinas),0,1,47,73,6,0
+Federated States of Micronesia,0,1,5814,5814,596,575
+French Southern & Antarctic Lands,0,1,132,132,8,0
+Gabon,0,1,0,0,3,1
+Gibraltar,0,1,0,0,1,0
+Greenland,0,1,49,49,4,0
+Guadeloupe,0,1,0,0,1,0
+Guam,0,1,0,0,1,0
+Guernsey,1,1,55,79,670,36
+Guinea,0,1,2617,2617,780,0
+Guyana,0,1,1,1,4,3
+Heard Island and McDonald Islands,0,1,0,0,1,0
+Iraq,0,1,151,151,6,5
+Isle of Man,1,1,122,345,916,63
+Ivory Coast,0,1,33,33,2,0
+Jersey,0,1,3,3,5,0
+Jordan,1,1,2770,10760,154,12
+Kenya,1,1,429,484,122,20
+Lesotho,0,1,123,123,0,0
+Liberia,0,1,127,132,2,0
+Macau,0,1,363,376,66,10
+Malawi,0,1,87,89,3,0
+Maldives,0,1,18,18,9,0
+Malta,1,1,39,87,132,8
+Marshall Islands,0,1,0,0,7,0
+Mauritius,0,1,1,1,0,0
+Monaco,0,1,100,100,24,126
+Mozambique,0,1,0,0,1,0
+Nicaragua,1,1,3567,3640,382,341
+Niger,0,1,75,75,184,18
+Northern Mariana Islands,0,1,0,0,1,0
+Oman,0,1,35,41,48,9
+Pacific Islands (Palau),0,1,246,246,16,0
+Panama,0,1,277,277,1,0
+Papua New Guinea,0,1,154,154,11,0
+Puerto Rico,0,1,416,416,82,397
+Samoa,0,1,0,0,1,0
+Sint Maarten,1,1,198,209,9,6
+Somalia,0,1,1,1,23,3
+South Sudan,0,1,38,64,36,2
+Sri Lanka,0,1,8,10,27,8
+Suriname,0,1,0,0,1,0
+Swaziland,0,1,980,1071,23,0
+Tajikistan,1,1,8,8,2079,2075
+The Bahamas,0,1,27,27,1,0
+The Gambia,0,1,0,0,3,1
+Tokelau,0,1,24,24,0,0
+Tonga,0,1,68,77,124,29
+United Republic of Tanzania,0,1,332,332,14,47
+United States Virgin Islands,0,1,2,2,0,0
+Western Sahara,0,1,297,297,8,26
+Zimbabwe,0,1,2734,2734,109,102
