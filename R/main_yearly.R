@@ -13,13 +13,6 @@ year_mondays = year_mondays[as.character(year_mondays, "%u") == "1"]
 year_mondays = year_mondays[year_mondays > "2011-10-31" & year_mondays < Sys.Date()]
 stopifnot(length(year_mondays) > 0)
 
-# greet the user
-message(
-   "\nScrape OpenStreetMap Elements by Country, for Year ", year,
-   "\nSource: OSMstats Website by Pascal Neis - https://osmstats.neis-one.org",
-   "\nLicense: ODC Open Database License v1.0 - https://openstreetmap.org/copyright\n"
-)
-
 # source the relevant scripts for each of the Mondays
 for (date_of_exec in as.list(year_mondays)) {
    source("R/scrape_tables.R")
