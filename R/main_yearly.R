@@ -13,8 +13,15 @@ year_mondays = year_mondays[as.character(year_mondays, "%u") == "1"]
 year_mondays = year_mondays[year_mondays > "2011-10-31" & year_mondays < Sys.Date()]
 stopifnot(length(year_mondays) > 0)
 
-# source the relevant scripts for each of the Mondays
+# do the following for each of the Mondays
 for (date_of_exec in as.list(year_mondays)) {
+
+   # create data file name; stop if already exists
+   osmstats_file = as.character(date_of_exec-1, "data/weekly_osm%G/weekly_osm%G_w%V.csv")
+   stopifnot(! file.exists(osmstats_file))
+   if (! dir.exists(dirname(osmstats_file))) { dir.create(dirname(osmstats_file)) }
+
+   # source the relevant scripts
    source("R/scrape_tables.R")
    source("R/write_data.R")
    Sys.sleep(10)

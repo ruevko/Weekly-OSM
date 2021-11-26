@@ -19,10 +19,6 @@ group_by(filter(osmstats_data, Contributors > 0), Date) %>%
    summarise(Countries = n(), Contribs = sum(Contributors)) %>%
    { \(x) capture.output(x)[-1][-2] %>% paste0("\n") %>% message }()
 
-# create data directory
-osmstats_file = as.character(date_of_exec - 1, "data/weekly_osm%G/weekly_osm%G_w%V.csv")
-if (! dirname(osmstats_file) %>% dir.exists) { dirname(osmstats_file) %>% dir.create }
-
 # aggregate observations by Country
 group_by(osmstats_data, Country) %>%
    summarise(
@@ -44,4 +40,4 @@ group_by(osmstats_data, Country) %>%
    # write data file
    write.csv(osmstats_file, quote = FALSE, row.names = FALSE)
 
-message("Current data saved:   ", osmstats_file)
+message("DATA SAVED: ", osmstats_file, "\n")
