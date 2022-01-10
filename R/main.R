@@ -14,4 +14,4 @@ if (! dir.exists(dirname(osmstats_file))) { dir.create(dirname(osmstats_file)) }
 # source the relevant scripts
 source("R/scrape_tables.R")
 source("R/write_data.R")
-# source("R/write_readme.R")
+source("R/write_readme.R")
