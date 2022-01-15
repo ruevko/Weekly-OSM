@@ -1,0 +1,14 @@
+name: Weekly OSM
+
+on: workflow_dispatch
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+    # clone ruevko/weekly-osm
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    # install and check renv
+    - name: Check renv package
+      run: Rscript -e 'message(R.version.string," with renv ",packageVersion("renv"))'
