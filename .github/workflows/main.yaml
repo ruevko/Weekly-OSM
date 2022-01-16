@@ -9,6 +9,8 @@ jobs:
   main:
     runs-on: ubuntu-latest
     steps:
+    - name: Install libcurl
+      run: sudo apt-get install libcurl4-openssl-dev
     # clone ruevko/weekly-osm
     - name: Checkout repository
       uses: actions/checkout@v2
