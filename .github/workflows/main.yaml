@@ -1,5 +1,8 @@
 name: Weekly OSM
 
+env:
+  RENV_PATHS_ROOT: ~/.local/share/renv
+
 on: workflow_dispatch
 
 jobs:
@@ -9,6 +12,17 @@ jobs:
     # clone ruevko/weekly-osm
     - name: Checkout repository
       uses: actions/checkout@v2
+    # create/restore cache
+    - name: Cache packages
+      uses: actions/cache@v2
+      with:
+        path: ${{ env.RENV_PATHS_ROOT }}
+        key: renv-${{ hashFiles('renv.lock') }}
+        restore-keys: |
+          renv-
+    # install/restore packages
+    - name: Restore packages
+      run: Rscript -e 'renv::restore()'
     # install and check renv
     - name: Check renv package
-      run: Rscript -e 'message(R.version.string," with renv ",packageVersion("renv"))'
+      run: Rscript -e 'message(R.version.string," with rlang ",packageVersion("rlang"))'
