@@ -25,6 +25,6 @@ jobs:
     # install/restore packages
     - name: Restore packages
       run: Rscript -e 'renv::restore()'
-    # install and check renv
-    - name: Check renv package
-      run: Rscript -e 'message(R.version.string," with rlang ",packageVersion("rlang"))'
+    # source main script
+    - name: Obtain weekly data
+      run: Rscript -e 'source("R/read_all_data.R");glimpse(weekly_osm_data)'
