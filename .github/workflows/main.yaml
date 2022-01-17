@@ -27,4 +27,12 @@ jobs:
       run: Rscript -e 'renv::restore()'
     # source main script
     - name: Obtain weekly data
-      run: Rscript -e 'source("R/read_all_data.R");glimpse(weekly_osm_data)'
+      run: Rscript R/main.R
+    # commit and push
+    - name: Commmit data
+      run: |
+        git config user.name "github-actions"
+        git config user.email "github-actions@github.com"
+        git add data readme.md
+        git commit -m "${{ env.GH_MSG }}"
+        git push

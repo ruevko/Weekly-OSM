@@ -15,3 +15,11 @@ if (! dir.exists(dirname(osmstats_file))) { dir.create(dirname(osmstats_file)) }
 source("R/scrape_tables.R")
 source("R/write_data.R")
 source("R/write_readme.R")
+
+# test if this is a GitHub environment
+gh_env = system("if [ -n \"$GITHUB_ENV\" ]; then echo TRUE; fi", intern = TRUE) == "TRUE"
+
+# if this is a GitHub environment, set the commit message; if not: commit manually
+gh_msg = c("GH_MSG<<EOF", as.character(date_of_exec-1, "Data for %G week %V"), "EOF")
+if (length(gh_env) == 0) { stop("Commit manually with this message: ", gh_msg[2]) }
+if (gh_env) { system(paste("echo ", gh_msg, " >> $GITHUB_ENV", sep="'", collapse="\n")) }
