@@ -19,7 +19,7 @@ message(
 library(rvest)
 
 # set the user agent, so OSMstats knows who we are and what we do
-config_u_a = httr::user_agent("Weekly-OSM/0.1 (+https://github.com/ruevko/weekly-osm)")
+config_u_a = httr::user_agent("Weekly-OSM/0.3 (+https://github.com/ruevko/weekly-osm)")
 config_old = httr::set_config(config_u_a)
 
 # loop over the dates vector, requesting data for each day of the week

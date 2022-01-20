@@ -3,7 +3,9 @@ name: Weekly OSM
 env:
   RENV_PATHS_ROOT: ~/.local/share/renv
 
-on: workflow_dispatch
+on:
+  schedule:
+    - cron: '13 3 * * 1'
 
 jobs:
   main:
