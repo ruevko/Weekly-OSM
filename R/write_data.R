@@ -8,10 +8,10 @@ library(dplyr, warn.conflicts = FALSE)
 
 # bind seven tables into one
 osmstats_data = bind_rows(osmstats_tables, .id = "Date") %>%
-   rename_with(sub, pattern = "\\s", replacement = "_") %>%
+   rename_with(paste0, c(Created, Modified, Deleted), "_elements") %>%
    # drop "(organised)" info, since its meaning is unknown
-   rename(Contributors = "Contributors_(organised)") %>%
-   mutate(Contributors = sub("\\s.+$", "", Contributors) %>% as.integer)
+   mutate(across(contains("organised"), \(x) sub("\\s\\(.+$", "", x) %>% as.integer)) %>%
+   rename_with(\(x) sub("\\s\\(.+$", "", x), contains("organised"))
 
 # count Countries and sum Contributors by Date
 message("\nDAILY ACTIVITY (count of Countries and sum of Contributors)\n")

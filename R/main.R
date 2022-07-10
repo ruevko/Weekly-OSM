@@ -4,6 +4,7 @@ date_of_exec = Sys.Date()
 
 # if a workflow run ever fails: input the Monday (see below), run and commit the data
 # date_of_exec = as.Date("YYYY-MM-DD")
+if (date_of_exec < "2011-11-07") { stop("Execution date cannot be before 2011-11-07") }
 if (as.character(date_of_exec, "%u") != "1") { stop("Execution date must be monday") }
 
 # create data file name; stop if already exists
