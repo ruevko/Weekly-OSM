@@ -1,5 +1,5 @@
 # Weekly OSM
-LAST RUN: APR 10, 2023
+LAST RUN: APR 17, 2023
 
 [OSMstats](https://osmstats.neis-one.org) is a website maintained by
 [Pascal Neis](https://neis-one.org/about), containing "statistics of the free wiki
